@@ -1,0 +1,387 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$address-blue-name: 'address-blue';
+$address-blue-x: 225px;
+$address-blue-y: 72px;
+$address-blue-offset-x: -225px;
+$address-blue-offset-y: -72px;
+$address-blue-width: 14px;
+$address-blue-height: 20px;
+$address-blue-total-width: 241px;
+$address-blue-total-height: 239px;
+$address-blue-image: '../img/icons-sprite.png';
+$address-blue: (225px, 72px, -225px, -72px, 14px, 20px, 241px, 239px, '../img/icons-sprite.png', 'address-blue', );
+$apple-tv-name: 'apple-tv';
+$apple-tv-x: 225px;
+$apple-tv-y: 149px;
+$apple-tv-offset-x: -225px;
+$apple-tv-offset-y: -149px;
+$apple-tv-width: 14px;
+$apple-tv-height: 12px;
+$apple-tv-total-width: 241px;
+$apple-tv-total-height: 239px;
+$apple-tv-image: '../img/icons-sprite.png';
+$apple-tv: (225px, 149px, -225px, -149px, 14px, 12px, 241px, 239px, '../img/icons-sprite.png', 'apple-tv', );
+$apple-watch-name: 'apple-watch';
+$apple-watch-x: 39px;
+$apple-watch-y: 225px;
+$apple-watch-offset-x: -39px;
+$apple-watch-offset-y: -225px;
+$apple-watch-width: 9px;
+$apple-watch-height: 14px;
+$apple-watch-total-width: 241px;
+$apple-watch-total-height: 239px;
+$apple-watch-image: '../img/icons-sprite.png';
+$apple-watch: (39px, 225px, -39px, -225px, 9px, 14px, 241px, 239px, '../img/icons-sprite.png', 'apple-watch', );
+$arrow-black-left-name: 'arrow-black-left';
+$arrow-black-left-x: 225px;
+$arrow-black-left-y: 36px;
+$arrow-black-left-offset-x: -225px;
+$arrow-black-left-offset-y: -36px;
+$arrow-black-left-width: 16px;
+$arrow-black-left-height: 26px;
+$arrow-black-left-total-width: 241px;
+$arrow-black-left-total-height: 239px;
+$arrow-black-left-image: '../img/icons-sprite.png';
+$arrow-black-left: (225px, 36px, -225px, -36px, 16px, 26px, 241px, 239px, '../img/icons-sprite.png', 'arrow-black-left', );
+$arrow-black-right-name: 'arrow-black-right';
+$arrow-black-right-x: 225px;
+$arrow-black-right-y: 0px;
+$arrow-black-right-offset-x: -225px;
+$arrow-black-right-offset-y: 0px;
+$arrow-black-right-width: 16px;
+$arrow-black-right-height: 26px;
+$arrow-black-right-total-width: 241px;
+$arrow-black-right-total-height: 239px;
+$arrow-black-right-image: '../img/icons-sprite.png';
+$arrow-black-right: (225px, 0px, -225px, 0px, 16px, 26px, 241px, 239px, '../img/icons-sprite.png', 'arrow-black-right', );
+$arrow-blue-left-name: 'arrow-blue-left';
+$arrow-blue-left-x: 137px;
+$arrow-blue-left-y: 0px;
+$arrow-blue-left-offset-x: -137px;
+$arrow-blue-left-offset-y: 0px;
+$arrow-blue-left-width: 34px;
+$arrow-blue-left-height: 58px;
+$arrow-blue-left-total-width: 241px;
+$arrow-blue-left-total-height: 239px;
+$arrow-blue-left-image: '../img/icons-sprite.png';
+$arrow-blue-left: (137px, 0px, -137px, 0px, 34px, 58px, 241px, 239px, '../img/icons-sprite.png', 'arrow-blue-left', );
+$arrow-blue-right-name: 'arrow-blue-right';
+$arrow-blue-right-x: 181px;
+$arrow-blue-right-y: 0px;
+$arrow-blue-right-offset-x: -181px;
+$arrow-blue-right-offset-y: 0px;
+$arrow-blue-right-width: 34px;
+$arrow-blue-right-height: 58px;
+$arrow-blue-right-total-width: 241px;
+$arrow-blue-right-total-height: 239px;
+$arrow-blue-right-image: '../img/icons-sprite.png';
+$arrow-blue-right: (181px, 0px, -181px, 0px, 34px, 58px, 241px, 239px, '../img/icons-sprite.png', 'arrow-blue-right', );
+$arrow-bottom-name: 'arrow-bottom';
+$arrow-bottom-x: 28px;
+$arrow-bottom-y: 170px;
+$arrow-bottom-offset-x: -28px;
+$arrow-bottom-offset-y: -170px;
+$arrow-bottom-width: 18px;
+$arrow-bottom-height: 9px;
+$arrow-bottom-total-width: 241px;
+$arrow-bottom-total-height: 239px;
+$arrow-bottom-image: '../img/icons-sprite.png';
+$arrow-bottom: (28px, 170px, -28px, -170px, 18px, 9px, 241px, 239px, '../img/icons-sprite.png', 'arrow-bottom', );
+$arrow-left-name: 'arrow-left';
+$arrow-left-x: 137px;
+$arrow-left-y: 68px;
+$arrow-left-offset-x: -137px;
+$arrow-left-offset-y: -68px;
+$arrow-left-width: 24px;
+$arrow-left-height: 38px;
+$arrow-left-total-width: 241px;
+$arrow-left-total-height: 239px;
+$arrow-left-image: '../img/icons-sprite.png';
+$arrow-left: (137px, 68px, -137px, -68px, 24px, 38px, 241px, 239px, '../img/icons-sprite.png', 'arrow-left', );
+$arrow-right-name: 'arrow-right';
+$arrow-right-x: 181px;
+$arrow-right-y: 68px;
+$arrow-right-offset-x: -181px;
+$arrow-right-offset-y: -68px;
+$arrow-right-width: 24px;
+$arrow-right-height: 38px;
+$arrow-right-total-width: 241px;
+$arrow-right-total-height: 239px;
+$arrow-right-image: '../img/icons-sprite.png';
+$arrow-right: (181px, 68px, -181px, -68px, 24px, 38px, 241px, 239px, '../img/icons-sprite.png', 'arrow-right', );
+$cart-black-name: 'cart-black';
+$cart-black-x: 0px;
+$cart-black-y: 133px;
+$cart-black-offset-x: 0px;
+$cart-black-offset-y: -133px;
+$cart-black-width: 25px;
+$cart-black-height: 27px;
+$cart-black-total-width: 241px;
+$cart-black-total-height: 239px;
+$cart-black-image: '../img/icons-sprite.png';
+$cart-black: (0px, 133px, 0px, -133px, 25px, 27px, 241px, 239px, '../img/icons-sprite.png', 'cart-black', );
+$clock-blue-name: 'clock-blue';
+$clock-blue-x: 101px;
+$clock-blue-y: 133px;
+$clock-blue-offset-x: -101px;
+$clock-blue-offset-y: -133px;
+$clock-blue-width: 20px;
+$clock-blue-height: 20px;
+$clock-blue-total-width: 241px;
+$clock-blue-total-height: 239px;
+$clock-blue-image: '../img/icons-sprite.png';
+$clock-blue: (101px, 133px, -101px, -133px, 20px, 20px, 241px, 239px, '../img/icons-sprite.png', 'clock-blue', );
+$diagnostics-name: 'diagnostics';
+$diagnostics-x: 63px;
+$diagnostics-y: 70px;
+$diagnostics-offset-x: -63px;
+$diagnostics-offset-y: -70px;
+$diagnostics-width: 52px;
+$diagnostics-height: 52px;
+$diagnostics-total-width: 241px;
+$diagnostics-total-height: 239px;
+$diagnostics-image: '../img/icons-sprite.png';
+$diagnostics: (63px, 70px, -63px, -70px, 52px, 52px, 241px, 239px, '../img/icons-sprite.png', 'diagnostics', );
+$express-name: 'express';
+$express-x: 0px;
+$express-y: 70px;
+$express-offset-x: 0px;
+$express-offset-y: -70px;
+$express-width: 53px;
+$express-height: 53px;
+$express-total-width: 241px;
+$express-total-height: 239px;
+$express-image: '../img/icons-sprite.png';
+$express: (0px, 70px, 0px, -70px, 53px, 53px, 241px, 239px, '../img/icons-sprite.png', 'express', );
+$filter-white-name: 'filter-white';
+$filter-white-x: 190px;
+$filter-white-y: 133px;
+$filter-white-offset-x: -190px;
+$filter-white-offset-y: -133px;
+$filter-white-width: 20px;
+$filter-white-height: 15px;
+$filter-white-total-width: 241px;
+$filter-white-total-height: 239px;
+$filter-white-image: '../img/icons-sprite.png';
+$filter-white: (190px, 133px, -190px, -133px, 20px, 15px, 241px, 239px, '../img/icons-sprite.png', 'filter-white', );
+$guarantee-name: 'guarantee';
+$guarantee-x: 74px;
+$guarantee-y: 0px;
+$guarantee-offset-x: -74px;
+$guarantee-offset-y: 0px;
+$guarantee-width: 53px;
+$guarantee-height: 53px;
+$guarantee-total-width: 241px;
+$guarantee-total-height: 239px;
+$guarantee-image: '../img/icons-sprite.png';
+$guarantee: (74px, 0px, -74px, 0px, 53px, 53px, 241px, 239px, '../img/icons-sprite.png', 'guarantee', );
+$imac-name: 'imac';
+$imac-x: 225px;
+$imac-y: 102px;
+$imac-offset-x: -225px;
+$imac-offset-y: -102px;
+$imac-width: 14px;
+$imac-height: 13px;
+$imac-total-width: 241px;
+$imac-total-height: 239px;
+$imac-image: '../img/icons-sprite.png';
+$imac: (225px, 102px, -225px, -102px, 14px, 13px, 241px, 239px, '../img/icons-sprite.png', 'imac', );
+$ipad-name: 'ipad';
+$ipad-x: 225px;
+$ipad-y: 125px;
+$ipad-offset-x: -225px;
+$ipad-offset-y: -125px;
+$ipad-width: 12px;
+$ipad-height: 14px;
+$ipad-total-width: 241px;
+$ipad-total-height: 239px;
+$ipad-image: '../img/icons-sprite.png';
+$ipad: (225px, 125px, -225px, -125px, 12px, 14px, 241px, 239px, '../img/icons-sprite.png', 'ipad', );
+$iphone-name: 'iphone';
+$iphone-x: 20px;
+$iphone-y: 225px;
+$iphone-offset-x: -20px;
+$iphone-offset-y: -225px;
+$iphone-width: 9px;
+$iphone-height: 14px;
+$iphone-total-width: 241px;
+$iphone-total-height: 239px;
+$iphone-image: '../img/icons-sprite.png';
+$iphone: (20px, 225px, -20px, -225px, 9px, 14px, 241px, 239px, '../img/icons-sprite.png', 'iphone', );
+$macbook-name: 'macbook';
+$macbook-x: 225px;
+$macbook-y: 171px;
+$macbook-offset-x: -225px;
+$macbook-offset-y: -171px;
+$macbook-width: 14px;
+$macbook-height: 10px;
+$macbook-total-width: 241px;
+$macbook-total-height: 239px;
+$macbook-image: '../img/icons-sprite.png';
+$macbook: (225px, 171px, -225px, -171px, 14px, 10px, 241px, 239px, '../img/icons-sprite.png', 'macbook', );
+$macmini-name: 'macmini';
+$macmini-x: 0px;
+$macmini-y: 205px;
+$macmini-offset-x: 0px;
+$macmini-offset-y: -205px;
+$macmini-width: 14px;
+$macmini-height: 10px;
+$macmini-total-width: 241px;
+$macmini-total-height: 239px;
+$macmini-image: '../img/icons-sprite.png';
+$macmini: (0px, 205px, 0px, -205px, 14px, 10px, 241px, 239px, '../img/icons-sprite.png', 'macmini', );
+$macpro-name: 'macpro';
+$macpro-x: 0px;
+$macpro-y: 225px;
+$macpro-offset-x: 0px;
+$macpro-offset-y: -225px;
+$macpro-width: 10px;
+$macpro-height: 14px;
+$macpro-total-width: 241px;
+$macpro-total-height: 239px;
+$macpro-image: '../img/icons-sprite.png';
+$macpro: (0px, 225px, 0px, -225px, 10px, 14px, 241px, 239px, '../img/icons-sprite.png', 'macpro', );
+$mobile-name: 'mobile';
+$mobile-x: 0px;
+$mobile-y: 170px;
+$mobile-offset-x: 0px;
+$mobile-offset-y: -170px;
+$mobile-width: 18px;
+$mobile-height: 25px;
+$mobile-total-width: 241px;
+$mobile-total-height: 239px;
+$mobile-image: '../img/icons-sprite.png';
+$mobile: (0px, 170px, 0px, -170px, 18px, 25px, 241px, 239px, '../img/icons-sprite.png', 'mobile', );
+$phone-blue-name: 'phone-blue';
+$phone-blue-x: 161px;
+$phone-blue-y: 133px;
+$phone-blue-offset-x: -161px;
+$phone-blue-offset-y: -133px;
+$phone-blue-width: 19px;
+$phone-blue-height: 19px;
+$phone-blue-total-width: 241px;
+$phone-blue-total-height: 239px;
+$phone-blue-image: '../img/icons-sprite.png';
+$phone-blue: (161px, 133px, -161px, -133px, 19px, 19px, 241px, 239px, '../img/icons-sprite.png', 'phone-blue', );
+$phone-name: 'phone';
+$phone-x: 131px;
+$phone-y: 133px;
+$phone-offset-x: -131px;
+$phone-offset-y: -133px;
+$phone-width: 20px;
+$phone-height: 20px;
+$phone-total-width: 241px;
+$phone-total-height: 239px;
+$phone-image: '../img/icons-sprite.png';
+$phone: (131px, 133px, -131px, -133px, 20px, 20px, 241px, 239px, '../img/icons-sprite.png', 'phone', );
+$servis-name: 'servis';
+$servis-x: 35px;
+$servis-y: 133px;
+$servis-offset-x: -35px;
+$servis-offset-y: -133px;
+$servis-width: 24px;
+$servis-height: 24px;
+$servis-total-width: 241px;
+$servis-total-height: 239px;
+$servis-image: '../img/icons-sprite.png';
+$servis: (35px, 133px, -35px, -133px, 24px, 24px, 241px, 239px, '../img/icons-sprite.png', 'servis', );
+$shield-name: 'shield';
+$shield-x: 69px;
+$shield-y: 133px;
+$shield-offset-x: -69px;
+$shield-offset-y: -133px;
+$shield-width: 22px;
+$shield-height: 22px;
+$shield-total-width: 241px;
+$shield-total-height: 239px;
+$shield-image: '../img/icons-sprite.png';
+$shield: (69px, 133px, -69px, -133px, 22px, 22px, 241px, 239px, '../img/icons-sprite.png', 'shield', );
+$spare-parts-name: 'spare parts';
+$spare-parts-x: 0px;
+$spare-parts-y: 0px;
+$spare-parts-offset-x: 0px;
+$spare-parts-offset-y: 0px;
+$spare-parts-width: 64px;
+$spare-parts-height: 60px;
+$spare-parts-total-width: 241px;
+$spare-parts-total-height: 239px;
+$spare-parts-image: '../img/icons-sprite.png';
+$spare-parts: (0px, 0px, 0px, 0px, 64px, 60px, 241px, 239px, '../img/icons-sprite.png', 'spare parts', );
+$icons-width: 241px;
+$icons-height: 239px;
+$icons-image: '../img/icons-sprite.png';
+$icons-sprites: ($address-blue, $apple-tv, $apple-watch, $arrow-black-left, $arrow-black-right, $arrow-blue-left, $arrow-blue-right, $arrow-bottom, $arrow-left, $arrow-right, $cart-black, $clock-blue, $diagnostics, $express, $filter-white, $guarantee, $imac, $ipad, $iphone, $macbook, $macmini, $macpro, $mobile, $phone-blue, $phone, $servis, $shield, $spare-parts, );
+$icons: (241px, 239px, '../img/icons-sprite.png', $icons-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

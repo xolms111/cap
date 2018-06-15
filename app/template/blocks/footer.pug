@@ -1,0 +1,41 @@
+footer
+  .container
+    .row.align-items-center.justify-content-sm-center
+      .col-2
+        .logotype
+          a(href='/')
+            img(src='img/logotype.png' alt='Captain Gadget')
+      .col-7
+        .copyright
+          span CAPTAINGADGET. Все права защищены
+      .col-4
+        .services
+          ul
+            li.servis Сервисный центр
+            li.mobile Интернет-магазин
+      .col-5
+        .design-by.text-center
+          span Made in Amlime.ru
+      .col-5
+        .contact-wrapper
+          .social-link
+            ul
+              li
+                a(href='#')
+                  i.fab.fa-instagram
+              li
+                a(href='#')
+                  i.fas.fa-phone-volume
+              li
+                a(href='#')
+                  i.fab.fa-whatsapp
+              li
+                a(href='#')
+                  i.fab.fa-telegram-plane
+          .phone.text-right
+            a(href='tel:+74952352482') +7(495) 235-24-82
+
+include ../includes/call-back
+
+script(src='//api-maps.yandex.ru/2.1/?lang=ru&onload=YandexReadyHandler', type='text/javascript')
+script(src='js/scripts.min.js')

@@ -1,0 +1,96 @@
+.product-data {
+  text-align: center;
+  .product-price {
+    font-size: 48px;
+  }
+  .product-bonus {
+    font-size: 24px;
+  }
+  .product-cart {
+    border: 1px solid #3eaefc;
+    border-radius: 100px;
+    background: #3eaefc;
+    color: #fff;
+    font-size: 18px;
+    height: 75px;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    transition: $transition;
+    margin-top: 20px;
+
+    &:hover {
+      background: #fff;
+      color: #3eaefc;
+    }
+  }
+  .product-buy {
+    color: #000;
+    opacity: .5;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-top: 20px;
+    display: inline-block;
+    transition: $transition;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+  .product-variations {
+    margin-top: 90px;
+  }
+  .variation-title {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .variations {
+    margin-top: 20px;
+    &.variations-color {
+      .variation-items {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-content: stretch;
+        align-items: center;
+        margin-top: 20px;
+        .variant-item {
+          width: 35px;
+          height: 35px;
+          border-radius: 50%;
+          cursor: pointer;
+          &.black { background: #000;}
+          &.grey { background: #313030;}
+          &.gold { background: #c8ac49;}
+          &.rose { background: #f7979c;}
+          &.red { background: #ff000c;}
+        }
+      }
+    }
+    &.variations-memory {
+      .variation-items {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-content: stretch;
+        align-items: center;
+        .variant-item {
+          line-height: normal;
+          border: 1px solid #cccccc;
+          border-radius: 18px;
+          font-size: 16px;
+          color: #000;
+          padding: 6px 15px;
+          cursor: pointer;
+          &.active {
+            background: #000;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

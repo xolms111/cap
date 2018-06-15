@@ -1,0 +1,47 @@
+.products-list {
+  font-family: $second-font;
+  .product-item {
+    padding: 50px 30px;
+  }
+  .product-image {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .product-name {
+    font-size: 16px;
+    color: $product-list-name-color;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .product-group-wrapper {
+    overflow: auto;
+  }
+  .product-price {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    color: $product-list-price-color;
+    float: left;
+
+    &:after {
+      content: '₽';
+      display: inline-block;
+      margin-left: 10px;
+    }
+  }
+  .product-add-cart {
+    background-color: $product-list-cart-color;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    float: right;
+    &:after {
+      content: '';
+      display: inline-block;
+      @include sprite($cart-black);
+    }
+  }
+}

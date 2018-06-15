@@ -1,0 +1,108 @@
+.reviews-wrapper {
+  background-color: $reviews-bg;
+  padding: 60px 60px 20px;
+
+  .title {
+    text-transform: uppercase;
+  }
+  .reviews {
+    padding: 60px 0;
+
+    .reviews-item {
+      .review {
+        overflow: auto;
+        margin: 25px 0;
+        .foto {
+          border-radius: 50%;
+          display: inline-block;
+          float: left;
+          width: 120px;
+          height: 120px;
+          overflow: hidden;
+          text-align: center;
+          img {
+            max-width: 100%;
+            height: auto;
+          }
+        }
+        .info {
+          max-width: 70%;
+          display: inline-block;
+          float: right;
+          .name {
+            font-family: $second-font;
+            font-size: 36px;
+            color: $reviews-color;
+            margin-bottom: 10px;
+            line-height: 1;
+          }
+          .comment {
+            font-family: $second-font;
+            font-size: 18px;
+            color: $reviews-color;
+          }
+        }
+      }
+    }
+    .arrow {
+      width: 34px;
+      height: 58px;
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+      cursor: pointer;
+      z-index: 9999;
+      transition: $transition;
+      opacity: .4;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      &__left {
+        @include sprite($arrow-blue-left);
+        left: 3px;
+        &:hover {
+          transform: translate(-3px, -50%);
+        }
+      }
+      &__right {
+        @include sprite($arrow-blue-right);
+        right: 3px;
+        &:hover {
+          transform: translate(3px, -50%);
+        }
+      }
+    }
+    .slick-dots {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 9999;
+      li {
+        display: inline-block;
+        margin: 5px;
+        background: $reviews-dots-bg;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        transition: $transition;
+        cursor: pointer;
+        opacity: 1;
+        &:hover {
+          transform: scale(1.2);
+          opacity: .8;
+        }
+        &.slick-active {
+          transform: scale(1.2);
+          opacity: .4;
+        }
+        button {
+          display: none;
+        }
+      }
+    }
+  }
+}

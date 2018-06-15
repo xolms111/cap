@@ -1,0 +1,29 @@
+@import "_blocks/header";
+@import "_blocks/main-menu";
+@import "_blocks/slider";
+@import "_blocks/secondary-menu";
+@import "_blocks/service";
+@import "_blocks/reviews";
+@import "_blocks/partners";
+@import "_blocks/advantages";
+@import "_blocks/contacts-address";
+@import "_blocks/contacts-form";
+@import "_blocks/breadcrumbs";
+
+
+// Store
+@import "_blocks/store/product-list";
+@import "_blocks/store/product-sorting";
+@import "_blocks/store/product-filter";
+@import "_blocks/store/product-slider";
+@import "_blocks/store/product-data";
+
+//iPhone
+@import "_blocks/iPhone/index";
+
+@import "_blocks/footer";
+
+.container-wrapper {
+  width: 950px;
+  margin: 0 auto;
+}

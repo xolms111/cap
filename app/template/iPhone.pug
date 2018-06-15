@@ -1,0 +1,103 @@
+- var title = 'Iphone service page'
+
+include includes/head
+body
+    .page.iphone-service
+        include blocks/header
+        .content
+            .services__header
+                .container
+                    .row.align-items-center
+                        .col-14
+                            h1 Ремонт iPhone
+                            p Если ваш телефон сломался, упал, не включается, попала вода, или случилась любая другая неприятность —
+                                | воспользуйтесь быстрыми и качественными услугами сервиса. Найти нашу мастерскую можно в центральной части Москвы. Квалифицированные инженеры проведут
+                                | точную диагностику смартфона и осуществят быстрый ремонт или установку программного обеспечения.
+                                | Для этого наша техническая служба укомплектована самым современным оборудованием, имеет штат опытных инженеров и собственный склад запасных частей.
+                            p Наше преимущество — это экспресс обслуживание, при котором вы получите исправное устройство в самое короткое время.
+                                | Кроме того, в своей работе мы используем только оригинальные запчасти и комплектующие Эпл, что обеспечивает надежность и долговечность работы iPhone.
+                                | В отличии от недобросовестных сервисов, мы не завышаем стоимость работ, индивидуально подходим к каждому клиенту. Мы осуществляем не только модульную замену деталей,
+                                | но и компонентное восстановление техники. Поэтому, прайс лист сервиса
+                                | приятно удивит вас оптимальными ценами по Москве. Позвоните нам или посетите наш центр для консультации и просчета стоимости решения вашей проблемы.
+                        .col-10.text-center
+                            img(src='/img/iphone-x.png')
+            .services__center
+                .container
+                    .row.align-items-center
+                        .col-9.text-center
+                            img(src='/img/iphone-x.png')
+                        .col-15
+                            h2 Частые неисправности iPhone и  услуги нашего сервиса
+                            p Хотя каждый случай поломки мобильного индивидуален, все же существует список типовых неисправностей Айфона, которые чаще всего нуждаются в починке. Наш хороший сервисный центр Apple предлагает такую помощь:
+                            ul
+                                li Ремонт механических повреждений смартфона (разбился экран iPhone, согнулся, повредился корпус, сломались кнопки и др.).
+                                li Восстановление после попадания влаги (телефон упал в воду, его залили жидкостью, использовался во влажной среде).
+                                li Замена материнской платы, BGA компонентов, шлейфов, динамиков, камеры.
+                                li Компонентный ремонт iPhone, восстановление контактных площадок, межслойных дорожек, разъемов, коннекторов и др.
+                                li Обновление прошивки, восстановление данных, установка и настройка программного обеспечения.
+            .services__footer
+                .tabs
+                    .container
+                        .row
+                            .col-24
+                                h2 Цены на ремонт iPhone. Выберите вашу модель
+                            .col-24
+                                .tabs__header.d-flex.justify-content-between.align-items-end
+                                    .tabs__head.active.text-center(data-phone='iPhone-10')
+                                        img(src='/img/iphone-x.png')
+                                        p iPhone X
+                                    .tabs__head(data-phone='iPhone-8plus')
+                                        img(src='/img/iphone-x.png')
+                                        p iPhone 8 Plus
+                                    .tabs__head(data-phone='iPhone-8')
+                                        img(src='/img/iphone-x.png')
+                                        p iPhone 8
+                                    .tabs__head(data-phone='iPhone-7plus')
+                                        img(src='/img/iphone-x.png')
+                                        p iPhone 7 Plus
+                                    .tabs__head(data-phone='iPhone-7')
+                                        img(src='/img/iphone-x.png')
+                                        p iPhone 7
+                                    .tabs__head(data-phone='iPhone-6plus')
+                                        img(src='/img/iphone-x.png')
+                                        p iPhone 6 Plus
+                                    .tabs__head(data-phone='iPhone-6')
+                                        img(src='/img/iphone-x.png')
+                                        p iPhone 6
+                            .col-24
+                                .tabs__item.active(data-phone='iPhone-10')
+                                    .container
+                                        .row
+                                            .col-12
+                                                include blocks/services
+                                            .col-12
+                                                include blocks/services
+                                            .col-12
+                                                include blocks/services
+                                            .col-12
+                                                include blocks/services
+                                .tabs__item(data-phone='iPhone-8plus')
+                                    .container
+                                        .row
+                                            .col-12
+                                                include blocks/services
+                                            .col-12
+                                                include blocks/services
+                                            .col-12
+                                                include blocks/services
+                                            .col-12
+                                                include blocks/services
+
+                                .tabs__item(data-phone='iPhone-8')
+                                    .container
+                                        .row
+                                            .col-12
+                                                include blocks/services
+                                            .col-12
+                                                include blocks/services
+                                            .col-12
+                                                include blocks/services
+                                            .col-12
+                                                include blocks/services
+        include blocks/footer
+    script(src='js/scripts.min.js')

@@ -1,0 +1,18 @@
+.partners-wrapper {
+  padding: 60px 60px 20px;
+  .partners {
+    padding: 60px 0 0;
+    .partner-items {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-content: center;
+      align-items: flex-end;
+
+      .item {
+        margin: 0 20px 60px;
+      }
+    }
+  }
+}

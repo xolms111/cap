@@ -1,0 +1,24 @@
+.contacts {
+  .content {
+    .contact-title {
+      font-size: 20px;
+      font-weight: 700;
+      padding-bottom: 20px;
+    }
+    .contact-desc {
+      font-size: 18px;
+      position: relative;
+      padding-left: 25px;
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 2px;
+      }
+      &.address:after {@include sprite($address-blue);}
+      &.clock:after {@include sprite($clock-blue);}
+      &.phone:after {@include sprite($phone-blue);}
+    }
+  }
+}

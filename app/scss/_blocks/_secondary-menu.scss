@@ -1,0 +1,21 @@
+.secondary-menu {
+  width: 100%;
+  background-color: $secondary-menu-bg;
+  .items-menu {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    li {
+      .item {
+        color: $secondary-menu-color;
+        font-size: 18px;
+        line-height: 70px;
+      }
+    }
+  }
+}

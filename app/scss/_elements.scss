@@ -1,0 +1,16 @@
+h3.title, h4.title {
+  font-family: $second-font;
+  color: $title-color;
+  text-align: center;
+  line-height: normal;
+  font-weight: 400;
+  padding: 0;
+}
+
+h4.title {
+  font-size: 30px;
+}
+
+h3.title {
+  font-size: 36px;
+}

@@ -1,0 +1,126 @@
+$bar-width: 30px;
+$bar-height: 2px;
+$bar-spacing: 7px;
+
+.main-menu {
+  border-bottom: 1px solid #e8e8e8;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  .menu {
+    text-align: center;
+    margin: 0 -15px;
+    position: relative;
+    &:after {
+      top: 33px;
+      z-index: -1;
+    }
+    .menu-inner {
+      display: block;
+      cursor: pointer;
+      h3 {
+        display: inline-block;
+        font-size: 24px;
+        color: #fff;
+        font-weight: 400;
+        line-height: 70px;
+        margin: 0;
+      }
+      .hamburger-wrapper {
+        display: inline-block;
+        margin: auto;
+        width: $bar-width;
+        height: $bar-height + $bar-spacing*2;
+        .hamburger {
+          width: $bar-width;
+          height: $bar-height;
+          position: relative;
+          transform: translateY($bar-spacing);
+          background: rgba(255, 255, 255, 1);
+          transition: all 0ms 300ms;
+
+          &:after {
+            width: $bar-width;
+            height: $bar-height;
+            content: "";
+            position: absolute;
+            left: 0;
+            top: $bar-spacing;
+            background: rgba(255, 255, 255, 1);
+            transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+          }
+          &:before {
+            width: $bar-width;
+            height: $bar-height;
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: $bar-spacing;
+            background: rgba(255, 255, 255, 1);
+            transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+          }
+
+          &.animate {
+            background: rgba(255, 255, 255, 0);
+
+            &:after {
+              top: 0;
+              transform: rotate(45deg);
+              transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);;
+            }
+            &:before {
+              bottom: 0;
+              transform: rotate(-45deg);
+              transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);;
+            }
+          }
+        }
+      }
+    }
+    .submenu {
+      display: none;
+      position: absolute;
+      width: 100%;
+      background: rgba(0,0,0,.8);
+      padding: 25px 0;
+
+      &.open {
+        display: block;
+      }
+      ul {
+        li {
+          color: #fff;
+          line-height: 30px;
+        }
+      }
+    }
+    &.service {
+      border-right: 1px solid #e8e8e8;
+      .hamburger-wrapper {
+        margin-right: 25px;
+      }
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 50px;
+        @include sprite($arrow-bottom);
+
+      }
+    }
+    &.store {
+      .hamburger-wrapper {
+        margin-left: 25px;
+      }
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 50px;
+        @include sprite($arrow-bottom);
+      }
+    }
+  }
+}

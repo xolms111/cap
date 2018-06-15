@@ -1,0 +1,19 @@
+- var title = 'Products catalog page'
+- var breadcrumb = "Телефоны"
+
+include includes/head
+body
+  .page.products-catalog
+    include blocks/header
+    .content
+      include blocks/main-menu
+      include blocks/slider
+      include blocks/breadcrumbs
+      .container.wrapper
+        .row
+          .col-6
+            include blocks/store/product-filter
+          .col-18
+            include blocks/store/product-sorting
+            include blocks/store/product-list
+      include blocks/footer

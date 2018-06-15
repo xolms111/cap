@@ -1,0 +1,56 @@
+$default-font: "proxima-nova", sans-serif;
+$second-font: "roboto-example", sans-serif;
+$accent: #252e46;
+$text: #000;
+
+$transition: all .3s;
+
+$callback-color: #3bb64a;
+$header-bg: #fff;
+$footer-bg: #fce1d1;
+
+// Slider
+$footer-dots-bg: #fff;
+$more-info-color: #f30055;
+
+// Reviews
+$reviews-bg: #f0f0f0;
+$title-color: #000000;
+$reviews-color: #000000;
+$reviews-dots-bg: #3eaefc;
+
+// Secondary menu
+$secondary-menu-bg: #3eaefc;
+$secondary-menu-color: #ffffff;
+
+// Service
+$border-bottom-color: #bde3fe;
+$call-master-color: #3eaefc;
+
+// Store
+$product-list-name-color: #000000;
+$product-list-price-color: #000000;
+$product-list-cart-color: #3eaefc;
+$sorting-color: #000000;
+$filter-icon-bg: #2a2a2a;
+$filter-bg: #191919;
+$filter-title-color: #ffffff;
+$filter-title-active-color: #d9b244;
+$filter-desc-color: #ffffff;
+$filter-button-reset-color: #ffffff;
+$filter-button-reset-hover-color: #3eaefc;
+$filter-button-reset-bg: #3eaefc;
+
+// Breadcrumbs
+$breadcrumbs-bg: #3eaefc;
+$breadcrumbs-color: #ffffff;
+
+$adv-icon-bg: #3eaefc;
+
+// Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
+$grid-gutter-width: 30px;
+$grid-columns: 24;
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1366px);
+
+$gutter: $grid-gutter-width;

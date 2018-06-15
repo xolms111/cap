@@ -1,0 +1,20 @@
+- var title = 'Iphone service page'
+
+include includes/head
+body
+  .page.iphone-service
+    include blocks/header
+    .content
+      include blocks/main-menu
+      include blocks/slider
+      include blocks/secondary-menu
+      include blocks/service-iphone
+      include blocks/advantages
+      include blocks/reviews
+      include blocks/parnters
+      .contacts
+        include blocks/contacts-footer/contacts-form
+        include blocks/contacts-footer/contacts-address
+        include blocks/contacts-footer/contacts-map
+    include blocks/footer
+  script(src='js/scripts.min.js')

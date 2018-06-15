@@ -1,0 +1,25 @@
+- var title = 'Contacts page'
+
+include includes/head
+body
+  .page.text-page.contacts
+    include blocks/header
+    .content
+      include blocks/main-menu
+      .text-content
+        .container
+          .row.justify-content-center
+            .col-24
+              h4.title Контактная информация
+            .col-5
+              .contact-title Адрес
+              .contact-desc.address г. Москва, Новослободская улица, 14/19C8
+            .col-5
+              .contact-title Режим работы
+              .contact-desc.clock Ежедневно с 10:00 до 21:00
+            .col-5
+              .contact-title Телефон
+              .contact-desc.phone 7(495) 235-24-82
+      include blocks/contacts-footer/contacts-map
+    include blocks/footer
+  script(src='js/scripts.min.js')

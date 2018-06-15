@@ -1,0 +1,21 @@
+.text-page {
+  .content {
+    .main-menu {
+      position: relative;
+      background-image: url("../img/bg-home.png");
+    }
+    .text-content {
+      padding: 60px 0;
+      .title {
+        text-align: left;
+        margin-bottom: 40px;
+      }
+      .note {
+        font-size: 14px;
+      }
+      hr {
+        margin: 25px 0;
+      }
+    }
+  }
+}
