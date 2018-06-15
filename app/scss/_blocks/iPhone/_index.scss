@@ -17,6 +17,16 @@
   li {
     padding-left: 40px;
     margin-bottom: 10px;
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      display: inline-block;
+      @include sprite($check);
+    }
   }
 }
 .tabs__header {
